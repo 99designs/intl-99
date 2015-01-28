@@ -9,7 +9,7 @@ Usage in an app:
 ```html
 <script>
     if (!window.Intl) {
-        document.write('<script src="/assets/js/Intl.min.js"></script>');
+        document.write('<script src="/assets/js/Intl.min.js"><\/script>');
     }
 </script>
 ```
