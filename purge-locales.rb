@@ -11,8 +11,8 @@ def supported_locales
 end
 
 def locales_in_intl
-  @locales_in_intl ||= Dir.glob('node_modules/intl/locale-data/json/*.json').map do |n|
-    /^node_modules\/intl\/locale-data\/json\/([^.]+)\.json$/.match(n)[1]
+  @locales_in_intl ||= Dir.glob('locale-data/json/*.json').map do |n|
+    /^locale-data\/json\/([^.]+)\.json$/.match(n)[1]
   end
 end
 
@@ -23,6 +23,6 @@ def locales_to_delete
 end
 
 locales_to_delete.each do |n|
-  File.delete("node_modules/intl/locale-data/json/#{n}.json")
-  File.delete("node_modules/intl/locale-data/jsonp/#{n}.js")
+  File.delete("locale-data/json/#{n}.json")
+  File.delete("locale-data/jsonp/#{n}.js")
 end
