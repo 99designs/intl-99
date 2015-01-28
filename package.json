@@ -4,7 +4,7 @@
   "description": "Intl.js polyfill with bundled locales as supported by 99designs",
   "main": "index.js",
   "scripts": {
-    "test": "karma"
+    "build": "make"
   },
   "repository": {
     "type": "git",
@@ -12,7 +12,8 @@
   },
   "keywords": [
     "intl",
-    "ecma-402"
+    "ecma-402",
+    "i18n"
   ],
   "author": "andrew.krespanis@99designs.com",
   "license": "MIT",
