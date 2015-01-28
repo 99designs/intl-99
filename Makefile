@@ -10,6 +10,8 @@ build:
 	@./purge-locales.rb
 	@echo Building Intl.min.js
 	@grunt
+	@echo Cleanup
+	@rm -rf locale-data
 
 reset:
 	rm -rf node_modules
