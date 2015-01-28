@@ -1,0 +1,26 @@
+{
+  "name": "intl-99",
+  "version": "1.0.0",
+  "description": "Intl.js polyfill with bundled locales as supported by 99designs",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/99designs/intl-99.git"
+  },
+  "keywords": [
+    "intl",
+    "ecma-402"
+  ],
+  "author": "andrew.krespanis@99designs.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/99designs/intl-99/issues"
+  },
+  "homepage": "https://github.com/99designs/intl-99",
+  "dependencies": {
+    "intl": "^0.1.4"
+  }
+}

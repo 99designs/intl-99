@@ -1,0 +1,3 @@
+[submodule "lib/shared-configuration-bundle"]
+	path = lib/shared-configuration-bundle
+	url = git@github.com:99designs/shared-configuration-bundle
