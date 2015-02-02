@@ -1,0 +1,23 @@
+{
+  "name": "intl-99",
+  "version": "1.0.0",
+  "homepage": "https://github.com/99designs/intl-99",
+  "authors": [
+    "Andrew Krespanis <andrew@leftjustified.net>"
+  ],
+  "description": "Intl Polyfill for 99designs",
+  "main": "Intl.min.js",
+  "keywords": [
+    "intl",
+    "i18n"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
