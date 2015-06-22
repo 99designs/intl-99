@@ -1,11 +1,11 @@
 {
   "name": "intl-99",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/99designs/intl-99",
   "authors": [
     "Andrew Krespanis <andrew@leftjustified.net>"
   ],
-  "description": "Intl Shim for 99designs",
+  "description": "Intl Polyfill for 99designs",
   "main": "Intl.min.js",
   "keywords": [
     "intl",

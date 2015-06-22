@@ -1,7 +1,7 @@
 {
   "name": "intl-99",
-  "version": "2.0.0",
-  "description": "Intl.js shim with bundled locales as supported by 99designs",
+  "version": "1.0.0",
+  "description": "Intl.js polyfill with bundled locales as supported by 99designs",
   "main": "index.js",
   "scripts": {
     "build": "make"
