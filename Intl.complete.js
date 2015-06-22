@@ -21,10 +21,8 @@
     if (typeof exports === 'object')
         module.exports = IntlPolyfill;
 
-    if (!global.Intl) {
-        global.Intl = IntlPolyfill;
-        IntlPolyfill.__applyLocaleSensitivePrototypes();
-    }
+    global.Intl = IntlPolyfill;
+    IntlPolyfill.__applyLocaleSensitivePrototypes();
 
     global.IntlPolyfill = IntlPolyfill;
 

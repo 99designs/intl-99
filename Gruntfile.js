@@ -8,7 +8,7 @@ module.exports = function (grunt) {
             },
             build: {
                 files: {
-                    'Intl.min.js': ['Intl.complete.js']
+                    'Intl.complete.min.js': ['Intl.complete.js']
                 }
             }
         }

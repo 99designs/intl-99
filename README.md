@@ -1,20 +1,17 @@
-An Intl polyfill with support for the subset of locales offered by 99designs.
+An Intl shim with support for the subset of locales offered by 99designs.
+
+We're shimming Intl support for consistency. Chrome doesn't differentiate USD vs local dollar currency when in a locale that uses $ as its currency symbol.
 
 Usage in an app: 
 
   - `npm install --save 99designs/intl-99`
-  - Script copying the Intl.min.js file to your `htdocs/assets/js` directory (or similar) in build pipeline
-  - Include the script in your template with a guard clause. eg: 
+  - require in some top level js file:
 
-```html
-<script>
-    if (!window.Intl) {
-        document.write('<script src="/assets/js/Intl.min.js"><\/script>');
-    }
-</script>
+```js
+    require('intl-99/Intl.complete');
 ```
 
-Building new version (eg: after release of new Intl.js or addition of locales to shared-configuration-bundle)
+Building new version after addition of locales to shared-configuration-bundle
 
 ```shell
 make
