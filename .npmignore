@@ -1,0 +1,7 @@
+Makefile
+Gruntfile.js
+tasks
+purge-locales.rb
+lib
+.git
+node_modules
