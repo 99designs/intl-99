@@ -1,8 +1,8 @@
 {
   "name": "intl-99",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Intl.js polyfill with bundled locales as supported by 99designs",
-  "main": "index.js",
+  "main": "Intl.min.js",
   "scripts": {
     "build": "make"
   },
